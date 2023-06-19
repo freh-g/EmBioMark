@@ -8,7 +8,7 @@ Here we provide the knowledge graph with whole DisGeNET gene disease association
 
 Moreover, we provide the best model for GDA that we evaluated during a Grid search cross-validation that we carried out for this work. The model is a SVM trained on the embeddings generated with DLemb algorithm. The GDA representation for this model is the concatenation of the embedding of the disease and the embedding of the gene (figure 1).
 
-[figure 1](./img/pipeline_image.png)
+![figure 1](./img/pipeline_image.png)
 
 
 ## Environment Creation
