@@ -11,7 +11,7 @@ Moreover, we provide the best model for GDA that we evaluated during a Grid sear
 ![figure 1](./img/pipeline_image.png)
 
 
-## Environment Creation
+## Environment creation
 
 First of all it is necessary to create a conda environment. Miniconda can be downloaded [here](https://docs.conda.io/en/latest/miniconda.html#installing). After the installation of Miniconda the environment to run this program can be created by running
 
@@ -27,9 +27,9 @@ And then activated by running
 conda activate KGE
 ```
 
-## Generating Embeddings
+## Generate embeddings
 
-To generate the KGE we provide the script located in Scripts/CreateEmbeddings.py. In this script are implemented the aforementioned models. To list the flags of this script is sufficient to run 
+To generate the KGE we provide the script located in Scripts/CreateEmbeddings.py. In this script are implemented the aforementioned models. To list the flags of this script run: 
 
 ```
 ./CreateEmbeddings.py -h
@@ -50,7 +50,7 @@ options:
                         path in which to save the embeddings
 ```
 
-To generate the Embeddings using the provided KG and DLemb method is sufficient to run:
+To generate the Embeddings using the provided KG and DLemb model trained for 100 epochs run:
 
 ```
 ./CreateEmbeddings.py -k ../KGs/KG.pickle -m DLemb -e 100 -o ../Embeddings/DLembId2Vec.pickle
@@ -60,11 +60,11 @@ To generate the Embeddings using the provided KG and DLemb method is sufficient 
 We already provide the embeddings generated with DLemb, BioKG2vec and Node2Vec.
 
 
-## Training a Model
+## Train a model
 
 To train a model for predictin GDA we provide the script located in Scripts/TrainModel.py.
 
-To list the parameters of this script  run:
+To list the parameters of this script run:
 
 ```
 Train and save the model on specific embeddings
@@ -99,7 +99,7 @@ To train an SVM with parameters = {'C': 10, 'gamma': 0.1, 'kernel':'rbf'} on emb
 ``` 
 
 
-## Running prediction with the pre-trained model
+## Predict biomarkers 
 
 We provide the predictions for intervertebral disc degeneration (IDD, CUI:C0158266) in the folder Predictions, to generate the predictions it is sufficient to run the script RunPredictions.py located in Script Folder. The programm accept some flags that can be listed by running:
 
@@ -121,7 +121,7 @@ options:
                         path in which to save the predictions
 ```
 
-A typical call of the script for generating predictions for IDD and using the pretrained model we provide is as following
+A typical call of the script for generating predictions for IDD and using the pretrained model we provide is as following:
 
 
 ```
