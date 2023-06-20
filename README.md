@@ -33,6 +33,7 @@ To generate the KGE we provide the script located in Scripts/CreateEmbeddings.py
 ```
 ./CreateEmbeddings.py -h
 
+
 Create embeddings given a knowledgegraph
 
 options:
@@ -66,6 +67,9 @@ To train a model for predictin GDA we provide the script located in Scripts/Trai
 To list the parameters of this script run:
 
 ```
+./CreateEmbeddings.py -h
+
+
 Train and save the model on specific embeddings
 
 options:
@@ -104,6 +108,7 @@ We provide the predictions for intervertebral disc degeneration (IDD, CUI:C01582
 
 ```
 ./RunPredictions.py -h
+
 
 options:
   -h, --help            show this help message and exit
