@@ -67,7 +67,7 @@ To train a model for predictin GDA we provide the script located in Scripts/Trai
 To list the parameters of this script run:
 
 ```
-./CreateEmbeddings.py -h
+./TrainModel.py -h
 
 
 Train and save the model on specific embeddings
