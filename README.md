@@ -16,14 +16,14 @@ Moreover, we provide the best model for GDA that we evaluated during a Grid sear
 First of all it is necessary to create a conda environment. Miniconda can be downloaded [here](https://docs.conda.io/en/latest/miniconda.html#installing). After the installation of Miniconda the environment to run this program can be created by running
 
 ```
-conda env create --file KG.yml 
+conda env create --file KGE.yml 
 
 ```
 
 And then activated by running
 
 ```
-conda activate KG
+conda activate KGE
 ```
 
 ## Generate embeddings
