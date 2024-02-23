@@ -1,0 +1,15 @@
+--------
+/mnt/c/Users/francesco/Desktop/PHD/tools/snap-master/examples/node2vec/node2vec.Err
+Thu Dec 22 15:22:15 2022
+Execution stopped: IsInt(false, 0, 0, Val) [Reason:'GO:0007096'], file ../../glib-core/dt.h, line 581
+--------
+--------
+/mnt/c/Users/francesco/Desktop/PHD/tools/snap-master/examples/node2vec/node2vec.Err
+Thu Dec 22 15:27:30 2022
+Execution stopped: IsInt(false, 0, 0, Val) [Reason:'GO:0007096'], file ../../glib-core/dt.h, line 581
+--------
+--------
+/mnt/c/Users/francesco/Desktop/PHD/tools/snap-master/examples/node2vec/node2vec.Err
+Thu Dec 22 15:27:42 2022
+Execution stopped: IsInt(false, 0, 0, Val) [Reason:'GO:0007096'], file ../../glib-core/dt.h, line 581
+--------
